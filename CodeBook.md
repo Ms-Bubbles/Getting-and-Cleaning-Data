@@ -20,5 +20,5 @@ Based on the file activity_labels.txt descriptive names to the avtctibity labels
 ##Tidy data##
 Second data set was created based on the script above with the average of each variable for each activity and each subject. To achieve this function aggregate was used. As a last step, the data was sorted by the subject id.
 
-The outcome of the above setps is a tidy data saved into a text file **TidyData** and saved in UCI HAR Dataset folder.
+The outcome of the above steps is a tidy data saved into a text file **TidyData** and saved in UCI HAR Dataset folder.
 

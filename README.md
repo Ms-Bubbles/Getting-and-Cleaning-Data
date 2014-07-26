@@ -1,6 +1,4 @@
 ##Getting-and-Cleaning-Data##
-=========================
-
 *This is a repository created for the Getting and Cleaning Data: Project course*
 
 =========================
@@ -16,16 +14,16 @@ The aim of the project course was to write a script which does the following:
 =========================
 
 ###Script###
-The above described script is called run_analysis.R and can be found in this repository. Before running the script please make sure that:
+The above described script is called **run_analysis.R** and can be found in this repository. Before running the script please make sure that:
  1. The UCI HAR Dataset has been downloaded and extracted.
  2. The UCI HAR folder must be availble as the script will be setting it as a working directory.
 
 =========================
 
 ###Tidy Dataset###
-Tidy dataset will be created by the script and created in the working directory as a text file called "TidyData.txt". In order to read the dataset please use the read.table command, with header argument set to true.
+Tidy dataset will be created by the script and created in the working directory as a text file called **"TidyData.txt"**. In order to read the dataset please use the read.table command, with header argument set to true.
 
 =========================
 
 ###CodeBook###
-Along with the submission a Code Book has been prepared. It is called CodeBook.md and can be found in this repository. The Code Book describes the variables, the data, and any transformations or work that was performed to clean up the data.
+Along with the submission a Code Book has been prepared. It is called **CodeBook.md** and can be found in this repository. The Code Book describes the variables, the data, and any transformations or work that was performed to clean up the data.

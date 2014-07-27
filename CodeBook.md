@@ -17,10 +17,11 @@ Both testData and trainData were combined into one dataset **bindData**. Based o
 
 The descriptive names to the activity labels were assigned in the cleanData based on the activity_labels.txt
 
-##Tidy data##
+###Tidy data###
 Second, separate data set was created based on the script above with the average of each variable for each activity and each subject. To achieve this, function aggregate was used. As a last step, the data was sorted by the subject id. The columns in this data set are:
 * SubjectIDs: column listing all subjects who took part in the study. IDs range 1:30.
 * ActivityLabels: column losting all acitvities which were monitored during the study. Activity labels range 1:6.
+
 Remaining columns contain average of each variable earlier extracted based on reference to mean and standard deviation.
 
 The outcome of the above steps is a tidy data saved into a text file **TidyData** and saved in UCI HAR Dataset folder.
